@@ -1,0 +1,8 @@
+for initial setup:
+    pip install -r ./requirements.txt
+
+
+running the program includes running main.py and command line arguments for what ai each player will be, size of the board and if time limit is on or not
+
+example:
+python3 ./main.py 11 mcts minimax time          -           board size 11, player 1 is minimax, player 2 is mcts, time limit enabled
